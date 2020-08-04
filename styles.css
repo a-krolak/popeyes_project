@@ -6,3 +6,238 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  background-color: whitesmoke;
+  margin: 0;
+  font-family: "chicken_sans_bold";
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 30px;
+  color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  background-color: white;
+  cursor: pointer;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+}
+
+button {
+  font-family: "chicken_sans_bold";
+}
+
+main {
+  max-width: 100%;
+  margin-bottom: 5rem;
+}
+
+#explore {
+  text-align: center;
+}
+
+#explore h3 {
+  font-size: 1.75rem;
+}
+
+h1 {
+  background-color: #f58427;
+  color: white;
+  font-size: 6.25rem;
+  padding: 3rem 0px 2rem;
+  justify-content: center;
+  font-weight: bold;
+  height: 226px;
+}
+
+main ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  max-width: 70rem;
+  margin: 0 auto;
+  grid-gap: 1rem;
+  list-style: none;
+  cursor: pointer;
+}
+#menu li {
+  background-color: white;
+  display: grid;
+  text-align: left;
+  list-style: none;
+}
+
+#menu img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 13rem;
+  place-items: center;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#menu h4 {
+  padding-left: 1rem;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+#menu h5 {
+  padding-left: 1rem;
+  font-size: 18px;
+  color: rgb(190, 90, 11);
+  margin-top: -0.25rem;
+}
+
+#popeyes-logo {
+  width: 160px;
+  margin: 0 auto;
+}
+#header-left-buttons {
+  color: black;
+  text-decoration: none;
+  margin-right: auto;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+#header-left-buttons a {
+  text-decoration: none;
+  color: black;
+}
+
+#header-right-buttons {
+  margin-left: auto;
+}
+
+#icon {
+  width: 50px;
+  height: 50px;
+}
+
+#sign {
+  background-color: rgb(190, 90, 11);
+  border-radius: 1rem;
+  padding: 0.2rem 1rem;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: solid;
+  border-color: rgb(190, 90, 11);
+}
+
+#cart {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 0.19rem 1.7rem;
+  color: rgb(190, 90, 11);
+  text-transform: uppercase;
+  text-decoration: none;
+  border-color: rgb(190, 90, 11);
+  border-style: solid;
+  border-width: 1px;
+}
+
+#cart img {
+  height: 15px;
+}
+
+footer {
+  background-color: #444444;
+  color: white;
+  font-family: chicken_sans_bold;
+  padding: 2rem 2rem 0rem 5rem;
+  margin: auto;
+}
+footer ul {
+  padding: 0px;
+}
+#top li:nth-child(1) {
+  padding-left: 0px;
+}
+#bottom li:nth-child(1) {
+  padding-left: 0px;
+}
+#top {
+  display: flex;
+  font-size: 1.25rem;
+  text-decoration: none;
+  margin-right: auto;
+  list-style-type: none;
+}
+
+#top li {
+  border-right: 1px solid grey;
+  padding: 10px;
+}
+#bottom {
+  display: flex;
+  font-size: 0.75rem;
+  text-decoration: none;
+  margin-right: auto;
+  padding-top: 0.5rem;
+  list-style-type: none;
+}
+
+#bottom li {
+  border-right: 1px solid grey;
+  padding: 10px;
+}
+#bottom li:last-child {
+  border-right: 0;
+}
+
+#additional-info {
+  display: flex;
+  flex-direction: column;
+}
+#additional-info p {
+  font-size: 0.9375rem;
+  text-decoration: none;
+}
+
+#social-media {
+  display: inline-flex;
+}
+#social-media a {
+  background-color: rgb(190, 90, 7);
+  width: 25px;
+  height: 25px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#social-media img {
+  width: 50%;
+  height: 50%;
+}
+#chicken {
+  margin-right: 4rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#chicken img {
+  height: 11rem;
+  padding: 0;
+}
