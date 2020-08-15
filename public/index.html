@@ -11,20 +11,20 @@
       type="image/x-icon"
     />
   </head>
-  <body>
+  <body data-trackingid="body">
     <header>
       <div id="header-left">
-        <a href="#">Order</a>
-        <a href="#">Restaurants</a>
-        <a href="#">Offers</a>
-        <a href="#">More▾</a>
+        <a href="#" data-trackingid="order-top-nav">Order</a>
+        <a href="#" data-trackingid="restaurants-top-nav">Restaurants</a>
+        <a href="#" data-trackingid="offers-top-nav">Offers</a>
+        <a href="#" data-trackingid="more-top-nav">More▾</a>
       </div>
       <div id="popeyes-logo">
         <img src="assets/images/popeyes-logo.svg" alt="" />
       </div>
       <div id="header-right">
-        <button id="sign">SIGN UP</button>
-        <button id="cart">
+        <button id="sign" data-trackingid="sign-up">SIGN UP</button>
+        <button id="cart" data-trackingid="checkout-cart">
           <img src="assets/images/bag-icon.svg" alt="icon" />
         </button>
       </div>
@@ -46,64 +46,76 @@
           <li>
             <img
               src="assets/images/7304dfe16fc5c9b945b5450f0a208583a0acaa6c-8116x6612.png"
+              data-trackingid="chicken-sandwich-img"
             />
-            <h4>Chicken Sandwich</h4>
-            <h5>See More</h5>
+            <h4 data-trackingid="chicken-sandwich-title-text">
+              Chicken Sandwich
+            </h4>
+            <h5 data-trackingid="chicken-sandwich-see-more-text">See More</h5>
           </li>
 
           <li>
             <img
               src="assets/images/618d8d59a8c0c89ac9a2c3e039f6c988ef85abde-7216x5412.png"
+              data-trackingid="signature-chicken-img"
             />
-            <h4>Signature Chicken</h4>
-            <h5>See More</h5>
+            <h4 data-trackingid="signature-chicken-title-text">
+              Signature Chicken
+            </h4>
+            <h5 data-trackingid="signature-chicken-see-more-text">See More</h5>
           </li>
 
           <li>
             <img
               src="assets/images/d12f488e9ba11cbf4733630c65dd57ae8c974596-812x480.png"
+              data-trackingid="tenders-img"
             />
-            <h4>Tenders</h4>
-            <h5>See More</h5>
+            <h4 data-trackingid="tenders-title-text">Tenders</h4>
+            <h5 data-trackingid="tenders-see-more-text">See More</h5>
           </li>
           <li>
             <img
               src="assets/images/6690440b15222b9e8f0956a301605465f723545b-1680x960.png"
+              data-trackingid="seafood-img"
             />
-            <h4>Seafood</h4>
-            <h5>See More</h5>
+            <h4 data-trackingid="seafood-title-text">Seafood</h4>
+            <h5 data-trackingid="seafood-see-more-text">See More</h5>
           </li>
 
           <li>
             <img
               src="assets/images/7548d862c292aa0fdb2c88b90e630161d025ecd8-7000x4000.png"
+              data-trackingid="sides-img"
             />
-            <h4>Sides</h4>
-            <h5>See More</h5>
+            <h4 data-trackingid="sides-title-text">Sides</h4>
+            <h5 data-trackingid="sides-see-more-text">See More</h5>
           </li>
 
           <li>
             <img
               src="assets/images/c5a63dab389599a1892a03d865bf425d48c53092-7216x5412.png"
+              data-trackingid="beverages-img"
             />
-            <h4>Beverages</h4>
-            <h5>See More</h5>
+            <h4 data-trackingid="beverages-title-text">Beverages</h4>
+            <h5 data-trackingid="beverages-see-more-text">See More</h5>
           </li>
 
           <li>
             <img
               src="assets/images/40f51d865805e4ea130ea432171d9515a0b694a2-812x480.png"
+              data-trackingid="desserts-img"
             />
-            <h4>Desserts</h4>
-            <h5>See More</h5>
+            <h4 data-trackingid="desserts-title-text">Desserts</h4>
+            <h5 data-trackingid="desserts-see-more-text">See More</h5>
           </li>
 
           <li>
             <img
               src="assets/images/5ee97528ac0ce09e5c795201586ff94485fb98c1-7000x4000.png"
+              data-trackingid="kids-menu-img"
             />
-            <h4>Kids Menu</h4>
-            <h5>See More</h5>
+            <h4 data-trackingid="kids-menu-title-text">Kids Menu</h4>
+            <h5 data-trackingid="kids-menu-see-more-text">See More</h5>
           </li>
         </ul>
       </section>
@@ -113,13 +125,15 @@
 
     <footer>
       <ul id="top">
-        <li>Menu</li>
-        <li>Company</li>
-        <li>Our Story</li>
-        <li>Franchise Opportunities</li>
-        <li>Careers</li>
-        <li>Trademarks</li>
-        <li>Support</li>
+        <li data-trackingid="menu-footer-nav">Menu</li>
+        <li data-trackingid="company-footer-nav">Company</li>
+        <li data-trackingid="our-story-footer-nav">Our Story</li>
+        <li data-trackingid="franchise-opportunities-footer-nav">
+          Franchise Opportunities
+        </li>
+        <li data-trackingid="careers-footer-nav">Careers</li>
+        <li data-trackingid="trademarks-footer-nav">Trademarks</li>
+        <li data-trackingid="support-footer-nav">Support</li>
       </ul>
       <ul id="bottom">
         <li>Terms Of Service</li>
@@ -139,20 +153,37 @@
       </div>
       <div id="social-media">
         <a href="https://www.facebook.com/PopeyesLouisianaKitchen/">
-          <img src="assets/images/facebook.svg" alt="" />
+          <img
+            src="assets/images/facebook.svg"
+            alt=""
+            data-trackingid="facebook-icon"
+          />
         </a>
         <a href="https://twitter.com/PopeyesChicken">
-          <img src="assets/images/twitter.svg" alt=""
+          <img
+            src="assets/images/twitter.svg"
+            alt=""
+            data-trackingid="twitter-icon"
         /></a>
         <a href="https://www.youtube.com/user/popeyes"
-          ><img src="assets/images/youtube.svg" alt=""
+          ><img
+            src="assets/images/youtube.svg"
+            alt=""
+            data-trackingid="youtube-icon"
         /></a>
         <a href="https://www.instagram.com/popeyeslouisianakitchen/"
-          ><img src="assets/images/instagram.svg" alt=""
+          ><img
+            src="assets/images/instagram.svg"
+            alt=""
+            data-trackingid="instagram-icon"
         /></a>
       </div>
       <div id="chicken">
-        <img src="assets/images/love-that-chicken.svg" alt="" />
+        <img
+          src="assets/images/love-that-chicken.svg"
+          alt=""
+          data-trackingid="love-that-chicken-img"
+        />
       </div>
     </footer>
   </body>
