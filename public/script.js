@@ -2,7 +2,7 @@ if (!localStorage.getItem('userId')) {
   localStorage.setItem('userId', String(Math.random()));
 }
 
-function handleClick(event) {
+const handleClick = async event => {
   console.log(event);
 
   const whereUserClicksX = Math.round(event.pageX);
@@ -20,7 +20,7 @@ function handleClick(event) {
   const userId = localStorage.getItem('userId');
 
   const url = '/clicks';
-  fetch(url, {
+  await fetch(url, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -35,6 +35,6 @@ function handleClick(event) {
       id: userId,
     }),
   });
-}
+};
 
 window.addEventListener('click', handleClick);
